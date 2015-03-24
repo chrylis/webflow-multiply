@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm</title>
+</head>
+
+<body>
+<h1>Confirm</h1>
+<p>Do you want to perform the multiplication?</p>
+<p><span data-th-text="${operation.mult1}"/> * <span data-th-text="${operation.mult2}"/></p>
+<form method="post">
+<button type="submit" name="_eventId_revise">Back</button>
+<button type="submit" name="_eventId_submit">Proceed</button>
+</form>
+</body>
+</html>
